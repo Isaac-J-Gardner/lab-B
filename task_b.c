@@ -1,6 +1,6 @@
+#define _USE_MATH_DEFINES //M_PI is in math.h, but it seems you want this
 #include <stdio.h>
 #include <math.h> //gives me M_PI
-#define _USE_MATH_DEFINES //M_PI is in math.h, but it seems you want this
 int main(void){
     double height = 0;
 	double volume = 0;
